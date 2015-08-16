@@ -24,3 +24,6 @@ group :development do
   gem 'binding_of_caller'
 end
 
+group :development, :test do
+  gem 'did_you_mean'
+end
