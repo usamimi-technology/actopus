@@ -16,6 +16,7 @@ group :development do
   gem 'spring-commands-rspec'
 
   gem 'quiet_assets'
+  gem 'bullet'
 
   gem 'web-console', '~> 2.0'
   gem 'better_errors'
