@@ -13,6 +13,7 @@ end
 
 group :development do
   gem 'spring'
+  gem 'spring-commands-rspec'
 
   gem 'quiet_assets'
 
@@ -30,4 +31,8 @@ group :development, :test do
   gem 'pry-byebug'
 
   gem 'did_you_mean'
+end
+
+group :test do
+  gem 'rspec-rails'
 end
