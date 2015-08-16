@@ -14,11 +14,6 @@ end
 group :development do
   gem 'spring'
 
-  gem 'pry-rails'
-  gem 'pry-doc'
-  gem 'pry-stack_explorer'
-  gem 'pry-byebug'
-
   gem 'quiet_assets'
 
   gem 'web-console', '~> 2.0'
@@ -29,5 +24,10 @@ group :development do
 end
 
 group :development, :test do
+  gem 'pry-rails'
+  gem 'pry-doc'
+  gem 'pry-stack_explorer'
+  gem 'pry-byebug'
+
   gem 'did_you_mean'
 end
