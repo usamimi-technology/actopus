@@ -58,6 +58,7 @@ GEM
       execjs
     coffee-script-source (1.9.1.1)
     columnize (0.9.0)
+    database_rewinder (0.5.3)
     debug_inspector (0.0.2)
     did_you_mean (0.9.10)
       interception
@@ -191,6 +192,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   coffee-rails (~> 4.1.0)
+  database_rewinder
   did_you_mean
   factory_girl_rails
   pry-byebug
